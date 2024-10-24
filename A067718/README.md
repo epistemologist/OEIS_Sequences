@@ -17,4 +17,4 @@ Numbers k such that sigma(2^k+1) == 0 (mod k).
  12%|███▊                           | 118/950 [01:12<09:02,  1.53it/s]
 ```
 
-Note that the next term is $a(45) = 1116$, we also have $a(46) \in \{1123,1124,1129,1139,1147,1141,1153,1155,1159\}$
+Note that the next term is $a(45) = 1116$, we also have $a(46) \in \{1123,1124,1129,1139,1147,1141,1153,1155\}$

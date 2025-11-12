@@ -13,12 +13,8 @@ def gen_bad_sets(N):
 
 
 def A390395(N):
-    bad_sets = gen_bad_sets(N)
-    # print('bad sets: ', bad_sets)
-    for k in reversed(range(N)):
-        for S in combinations(range(1, N+1), k):
-            S = set(S)
-            if all([not B.issubset(S) for B in bad_sets]):
-                return S
-
-
+	bad_sets = gen_bad_sets(N)
+	for k in reversed( range(N+1) ):
+		for S in combinations(range(1, N+1), k):
+			if all([not B.issubset(S) for B in bad_sets]):
+				return set( S )
